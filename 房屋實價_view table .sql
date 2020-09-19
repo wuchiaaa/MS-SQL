@@ -1,3 +1,6 @@
+use [房屋實價登入系統]
+go
+
 --創建檢視表
 create view 住宅 as
 select	iif( 
@@ -14,5 +17,6 @@ select	iif(
 		*
 from [land].[Main_a]
 where [都市土地使用分區] = N'住'
+go
 
 select * from [dbo].[住宅]

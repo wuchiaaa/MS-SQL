@@ -1,4 +1,4 @@
-use myDB
+use [房屋實價登入系統]
 
 drop table if exists land.Main
 drop table if exists land.Main_Rent
